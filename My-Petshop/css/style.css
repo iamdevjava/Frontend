@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+/* Viste mobile Predeterminada */
+/* Header */
+.container-header {
+    background-color:#F0A83E;
+    display: flex;
+    height: 8.7vh;
+    width: 100vw;
+}
+
+.title {
+    color: peru;
+    font-size: 20px;
+    left: 2.18vh;
+    position: relative;
+    top: 2.18vh;
+    -webkit-text-stroke: 1.5px black solid;
+}
+
+.image-menu {
+    align-items: center;
+    display: flex;
+    justify-content:end;
+    width: 60vw;
+}
+
+.image-title img {
+    left: 3.6vh;
+    position: relative;
+    top: 1.7vh;
+    width: 5.8vw;
+}
+
+/* Main */
+.container-main {
+    background-image: url('../img/Full\ 1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    height: 64vh;
+
+}
+/* Banner */
+.banner {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text {
+    background-color: #E5E5E5;
+    border: none;
+    border-radius: 0.5em;
+    font-size: 25px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    position: relative;
+    top: 20vh;
+}
+
+.textp {
+    background-color: rgba(208, 148, 84, 0.9);
+    color: black;
+    font-size: 18px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: justify;
+    padding: 10px;
+    position: relative;
+    top: 23vh;
+}
+/* boton */
+.btn {
+    background-color: #F0A83E;
+    border: none;
+    border-radius: 0.5em;
+    color: black;
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: justify;
+    padding: 15px;
+    position: relative;
+    top: 26vh;
+}
+
+.image-pawprint {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: 45vh;
+}
+
+.subtitle {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: 48vh;
+
+}
+/* Menu productos */
+.sub-nav-bar ul {
+    display: flex;
+    justify-content: center;
+}
+
+.sub-nav-bar ul li a{
+    color:#666666;
+    padding: 2.5px;
+    left: -25px;
+    position: relative;
+    top: 310px;
+    text-decoration: none;
+}
+
+/* Producto juguete churrasquito */
+.churrasco {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: 350px;
+}
+
+.image-churrasquito figcaption {
+    bottom: 60px;
+    color: #666666;
+    position: relative;
+    text-align: center;
+}
+
+.image-churrasquito figcaption p{
+    color: #F0A83E;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Producto comedero para perro */
+.comedero {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: 330px;
+}
+
+.image-comedero figcaption {
+    bottom: 60px;
+    color: #666666;
+    position: relative;
+    text-align: center;
+}
+
+.image-comedero figcaption p{
+    color: #F0A83E;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Producto juguete de huesito */
+.huesito {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: 330px;
+}
+
+.image-huesito figcaption {
+    bottom: 60px;
+    color: #666666;
+    position: relative;
+    text-align: center;
+}
+
+.image-huesito figcaption p{
+    color: #F0A83E;
+    font-weight: bold;
+}
+
+/* Formulario */
+.form {
+    position: relative;
+    text-align: center;
+    top: 300px;
+}
+
+.subtitle2 {
+    color: #3C2313;
+    font-size: 40px;
+}
+
+.formulario {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.formulario input {
+    background-color: #3C2313;
+    border: none;
+    border-radius: 1em;
+    height: 40px;
+    position: relative;
+    width: 320px; 
+}
+
+.formulario input::placeholder {
+   color: #666666; 
+   font-size: 10px;
+}
+
+.field-nombre {
+    position: relative;
+    top: 10px;
+}
+
+.field-email {
+    position: relative;
+    top: 20px;
+}
+
+.field-tel {
+    position: relative;
+    top: 30px;
+}
+
+.btn2 {
+    background-color:#666666;
+    border: none;
+    border-radius: 5em;
+    color: #FFFFFF;
+    left: -120px;
+    padding: 15px;
+    position: relative;
+    top: 60px;
+    width: 200px;
+}
+
+.btn3 {
+    background-color:#F0A83E;
+    border: none;
+    border-radius: 5em;
+    color: #FFFFFF;
+    left: 95px;
+    padding: 15px;
+    position: relative;
+    top: 10px;
+    width: 200px;
+}
+
+/* Suscribete */
+.suscribete {
+    background-color: #F0A83E;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: 370px;
+    width: 100vw;
+}
+
+.image-enviarCorreo {
+    right: 40%;
+    position: relative;
+    top: 2vh;
+}
+
+.subtitle3 {
+    bottom: 4.5vh;
+    color: #FFFFFF;
+    font-size: 20px;
+    position: relative;
+    text-align: center;
+}
+
+.suscribete input {
+    border: none;
+    border-radius: 5em;
+    bottom: 3vh;
+    height: 5vh;
+    right: 12vh;
+    position: relative;
+    width:250px;
+}
+
+.suscribete input::placeholder {
+    color: #666666;
+}
+
+.btn4 {
+    background-color: #3C2313;
+    border: none;
+    border-radius: 5em;
+    bottom: 8.4vh;
+    color: #FFFFFF;
+    position: relative;
+    left: 25%;
+    padding: 7px;
+    width: 120px;
+}
+
+/* Footer */
+.info-footer {
+    background-color: #3C2313;
+    height: 300px;
+    position: relative;
+    top: 1635px;
+}
+
+.footer-location, .footer-phone, .footer-email {
+    left: 20px;
+    position: relative;
+    top: 30px;
+}
+
+.box-footer {
+    align-items: flex-end;
+    background-color: #222222;
+    color: #FFFFFF;
+    font-size: 10px;
+    position: relative;
+    top: 1635px;
+}
+
+.box-footer h3 {
+    text-align: center;
+}
+
+/* Vista Tablet */
+@media (min-width: 481px) and (max-width:768px) {
+    .image-menu img {
+        left: 34rem;
+    }
+
+    .text {
+        left: 5vh;
+        padding:25px;
+        width: 550px;
+    }
+
+    .textp {
+        font-size: 30px;
+    }
+
+    .btn {
+        left: 25vh;
+        top: 25vh;
+    }
+
+    .image-pawprint img {
+        left: 55vh;
+    }
+
+    .suscribete {
+        top: 57vh;
+    }
+
+    .subtitle3 {
+        left: -150px;
+    }
+}
